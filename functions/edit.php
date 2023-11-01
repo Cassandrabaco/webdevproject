@@ -1,7 +1,7 @@
 <?php
 // including the database connection file
 include_once("../dbConnection/mysqlconfig_connection.php");
-if(isset($_POST['update'])) {
+if(isset($_POST['update'])) 
     $id= $_POST['id'];
     $code=$_POST['code'];
     $name=$_POST['name'];
